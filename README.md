@@ -82,3 +82,25 @@ as well as
 [Vision Transformer](https://arxiv.org/abs/2010.11929),
 [DINO](https://github.com/facebookresearch/dino), and
 [HIPT](https://github.com/mahmoodlab/HIPT).
+
+
+
+My work: 
+##Installation & Set Up 
+using docker container: 
+```bash
+docker run -ti -v /raid/asmagulova/:/workspace pytorch/pytorch:2.1.0-cuda12.1-cudnn8-devel /bin/bash
+```
+
+installing wget on docker container: 
+```bash
+apt-get update
+apt-get install wget -y
+```
+
+and then run 
+```bahs
+./run_demo.sh
+```
+
+dislaimer: all scrips (python and bash) were moved to the src folder  
