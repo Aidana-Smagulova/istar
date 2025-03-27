@@ -104,3 +104,10 @@ and then run
 ```
 
 dislaimer: all scrips (python and bash) were moved to the src folder  
+```bash
+apt-get update 
+apt install -y libglib2.0-0
+apt install -y libgl1-mesa-glx
+```
+
+
